@@ -8,8 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/style.css">
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <title>Base Apparel coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -18,12 +19,19 @@
   </style>
 </head>
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+   <main class="main">
+    <div class="main__container-one">
+      <img src="/images/logo.svg" alt="Logo base Apparel" class="main__image">
+      <h1 class="main__title"><span class="main__span">We're</span> coming soon</h1>
+      <p class="main__graph">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <div class="main__input-container">
+        <input type="text" placeholder="Email Address" class="main__input">
+        <button type="submit" class="main__button"><i class="fa-solid fa-angle-right main__icon"></i></button>
+      </div>
+    </div>
+    <div class="main__container-two">
+    </div>
+  </main>
 </body>
 </html>
